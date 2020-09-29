@@ -22,7 +22,9 @@ function HomeStack() {
         component={Home}
         options={({ navigation }) => {
           return {
-            headerTitle: () => <Header navigation={navigation} />,
+            headerTitle: () => (
+              <Header navigation={navigation} title="GameZone" />
+            ),
           };
         }}
       />
