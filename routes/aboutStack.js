@@ -10,10 +10,10 @@ function AboutStack() {
     <Stack.Navigator
       screenOptions={{
         headerStyle: {
-          backgroundColor: "green",
+          backgroundColor: "#eee",
           height: 60,
         },
-        headerTintColor: "#fff",
+        headerTintColor: "#444",
       }}
     >
       <Stack.Screen
